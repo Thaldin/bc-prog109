@@ -1,0 +1,24 @@
+﻿body {
+
+}
+
+div.header {
+    text-align: center;
+    background-color: lightgray;
+    color: royalblue;
+}
+
+div.header h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+div.footer {
+    text-align: center;
+    background-color: lightgray;
+}
+
+    div.footer p {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
