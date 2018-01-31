@@ -1,0 +1,79 @@
+﻿* {
+    font-family: Arial, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'LibreCaslonTextRegular';
+    font-weight: normal;
+    font-style: oblique;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("../images/background.jpg");
+}
+
+content {
+    overflow: auto;
+}
+
+nav, section, footer {
+    opacity: 0.8;
+    margin: 1%;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+
+.column1 {
+    background-color: dodgerblue;
+}
+
+.column2 {
+    background-color: deepskyblue;
+}
+
+.column3 {
+    background-color: cadetblue;
+    margin-right: 0%;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+}
+
+nav {
+    background-color: cornflowerblue;
+    padding: 0.5em 0;
+}
+
+footer {
+    clear: both;
+    background-color: cornflowerblue;
+    padding: 0.5em 0;
+}
+
+section, article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+}
+
+article {
+    opacity: 0.8;
+}
+
+section {
+    background-color: lightskyblue;
+    background-image: url("../images/inseal.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
