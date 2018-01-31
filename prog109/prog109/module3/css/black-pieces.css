@@ -1,0 +1,35 @@
+﻿.blk-knight {
+    background-image: url("../images/chess-icons/black-knight.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blk-castle {
+    background-image: url("../images/chess-icons/black-castle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blk-pawn {
+    background-image: url("../images/chess-icons/black-pawn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blk-queen {
+    background-image: url("../images/chess-icons/black-queen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blk-king {
+    background-image: url("../images/chess-icons/black-king.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blk-bishop {
+    background-image: url("../images/chess-icons/black-bishop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}

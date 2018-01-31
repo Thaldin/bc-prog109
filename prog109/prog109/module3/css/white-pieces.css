@@ -1,0 +1,35 @@
+﻿.wht-knight {
+    background-image: url("../images/chess-icons/gold-knight.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wht-castle {
+    background-image: url("../images/chess-icons/gold-castle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wht-pawn {
+    background-image: url("../images/chess-icons/gold-pawn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wht-queen {
+    background-image: url("../images/chess-icons/gold-queen.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wht-king {
+    background-image: url("../images/chess-icons/gold-king.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wht-bishop {
+    background-image: url("../images/chess-icons/gold-bishop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
