@@ -1,0 +1,23 @@
+﻿fieldset {
+    margin: 0 auto;
+    width: 400px;
+}
+
+label.form {
+    float: left;
+    width: 100px;
+    clear: left;
+    text-align: right;
+}
+
+input[type="text"], input[type="email"] {
+    width: 180px;
+    padding: 2px;
+    outline: none;
+}
+
+textarea {
+    width: 180px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

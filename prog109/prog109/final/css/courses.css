@@ -1,0 +1,17 @@
+﻿div.header {
+    float: left;
+    width: 31%;
+    color: rgb(0, 255, 0);
+    padding: 2px 5px;
+}
+
+div.course {
+    clear: both;
+}
+
+div.course-info {
+    margin: 0 auto;
+    float: left;
+    width: 31%;
+    padding: 5px 5px;
+}
