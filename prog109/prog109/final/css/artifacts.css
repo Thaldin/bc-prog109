@@ -1,0 +1,18 @@
+﻿.artifacts {
+    float: left;
+    width: 100%;
+}
+
+section a {
+    display: block;
+    clear: both;
+}
+
+figure {
+    float: left;
+}
+
+figcaption {
+    font-size: 85%;
+}
+
