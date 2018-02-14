@@ -1,0 +1,62 @@
+﻿body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-image: url("../images/Marble.png");
+    background-repeat: repeat;
+}
+
+#title {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+    color: royalblue;
+    font-family: 'BeuronRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 400%;
+}
+
+#container {
+    margin-top: 5%;
+    margin-left: 21%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.row {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    clear: both;
+}
+
+.black, .white {
+    float: left;
+    border: solid 1px black;
+    width: 10%;
+    height: 60px;
+}
+
+.black {
+    background-color: darkgray;
+    background-color: rgba(169,169,169, 0.55);
+}
+
+.white {
+    background-color: white;
+    background-color: rgba(255,255,255,0.55);
+}
+
+    .black:hover, .white:hover {
+        background-color: cornflowerblue;
+        background-color: rgba(100,149,237, 0.55);
+    }
+
+#footer {
+    clear: both;
+    margin: 0px;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
