@@ -5,3 +5,29 @@
 .row {
     text-align: center;
 }
+
+header {
+    text-align: center;
+}
+
+label {
+    padding: 2px;
+}
+
+div#symbolData {
+    padding: 3px;
+}
+
+div#colors {
+    padding: 3px;
+}
+
+div#userInput {
+    width: 100%;
+    text-align: center;
+}
+
+input#rows, input#symbol {
+    width: 50px;
+    padding: 3px;
+}
