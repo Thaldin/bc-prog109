@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Artifact #3 - Rhombus</title>
+    <link rel="stylesheet" href="css/module6.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h3>Rhombus Generator by Ed Abshire</h3>
+        <p>Enter a number of rows and a symbol to generate a rhombus.  You may select colors as well.</p>
+    </header>
+    <script src="js/module6.js"></script>
+    <div id="userInput">
+        <form name="userInput" onsubmit="javascript: return createRhombus()">
+            <div id="symbolData">
+                <label for="symbol">Symbol</label><input id="symbol" type="text" pattern=".{1}" title="Please use a single character." required />
+                <label for="rows">Rows</label><input id="rows" type="number" required />
+            </div>
+            <div id="colors">
+                <label for="oddColor">Odd Color</label><input id="oddColor" type="color" />
+                <label for="evenColor">Even Color</label><input id="evenColor" type="color" />
+            </div>           
+            <input id="generate" type="submit" value="Generate" />
+        </form>
+        <div id="output">
+        </div>
+    </div>
+</body>
+</html>
