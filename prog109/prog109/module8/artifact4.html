@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/artifact4.css" />
+    <title>Artifact #4</title>
+</head>
+<body>
+    <h1>CONTACT US FORM</h1>
+    <!--Add the URL to your Thank you page -->
+    <form action="thankyou.html" method="get"  onsubmit="return validateInput();">
+        <fieldset>
+            <legend>User Information</legend>
+            <label for="firstname">Enter Firstname (Max 20 characters) </label>
+            <br>
+            <input type="text" id="firstname"><label id="fnameError" class="errorMsg"></label>
+            <br>
+            <label for="lastname">Enter Lastname (Max 50 characters) </label>
+            <br>
+            <input type="text" id="lastname"><label id="lnameError" class="errorMsg"></label>
+            <br>
+            <label for="email">Enter Email</label>
+            <br>
+            <input type="text" id="email"><label id="emailError" class="errorMsg"></label>
+            <br>
+            <label for="phone">Enter Phone Number (Max 15 Characters) </label>
+            <br>
+            <input type="text" id="phone"><label id="phoneError" class="errorMsg"></label>
+            <br>
+            <label for="username">Enter Username (Max 12 Characters)</label>
+            <br>
+            <input type="text" maxlength="12" id="username"><label id="userError" class="errorMsg"></label>
+            <br>
+            <label for="password">Enter Password (Max 7 Characters)</label>
+            <br>
+            <input type="password" maxlength="7" id="password"><label id="pwdError" class="errorMsg"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Current Address</legend>
+            <label for="address">Enter Address</label>
+            <br>
+            <input type="text" name="address" id="address" size="50"><label id="addrError" class="errorMsg"></label>
+            <br>
+            <label for="city">Enter City</label>
+            <br>
+            <input type="text" name="city" id="city"><label id="cityError" class="errorMsg"></label>
+            <br>
+            <label for="countries">Choose Country</label>
+            <br>
+            <select id="countries">
+                <option>Choose One</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+                <option>United States</option>
+            </select>
+            <label id="countryError" class="errorMsg"></label>
+            <br>
+            <div id="zipcodeDiv" class="hidden">
+                <label for="zipcode">Enter zipcode</label>
+                <br>
+                <input type="text" name="zip" id="zipcode"><label id="zipError" class="errorMsg"></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Feel free to add comments</legend>
+<textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
+        </fieldset>
+        <br>
+        <input id="submit" type="submit" value="Submit">
+        <input id="cancel" type="submit" value="Cancel">
+    </form>
+    <script src="js/artifact4.js"></script>
+    <footer>
+        <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+        </a>
+    </footer>
+</body>
+</html>
