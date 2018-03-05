@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.errorMsg {
+    margin-left: 5px;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
