@@ -33,3 +33,7 @@ button:hover {
     font-weight: 300;
     font-size: 150%;
 }
+
+#footer {
+    text-align: center;
+}
