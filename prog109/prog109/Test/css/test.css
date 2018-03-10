@@ -1,0 +1,26 @@
+﻿* {
+    font-family: 'Terminal';
+    font-weight: bolder;
+    font-style: normal;
+    color: forestgreen;
+    background-color: black;
+}
+
+main {
+    background-color: beige;
+    border-radius: 35px 35px;
+    width: 960px;
+    height: 800px;
+    margin-top: 5px;
+}
+
+section {
+    width: 890px;
+    height: 730px;
+    margin: 25px 25px 25px 25px;
+    border-radius: inherit;
+    float: left;
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+}

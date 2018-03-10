@@ -6,9 +6,11 @@
     background-color: black;
 }
 
+/* Navigation Bar */
 nav {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
     nav > a {
@@ -27,7 +29,7 @@ nav {
             color: rgb(0, 255, 0);
         }
 
-
+/* All Links */
 a {
     text-decoration: none;
 }
@@ -36,12 +38,25 @@ a {
         color: rgb(0, 255, 0);
     }
 
-section {
-    padding-top: 25px;
+main {
+    margin: auto auto;
     width: 960px;
-    font-size: 150%;
+    height: 700px;
+    background-color: beige;
+    border-radius: 25px 25px;
     text-align: center;
-    margin: 0 auto;
+}
+
+section {
+    width: 890px;
+    height: 630px;
+    margin: 25px 25px 25px 25px;
+    border-radius: inherit;
+    float: left;
+    background-color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    overflow-y: auto;
 }
 
     section h4 {
