@@ -3,9 +3,11 @@
     background: beige;
 }
 button {
+    height:30px;
+
     border:none;
-    background-color: none;
-    color: lightslategray;
+    background-color: darkred;
+    color: white;
 }
 
 .dot {
