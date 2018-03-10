@@ -1,2 +1,19 @@
 ﻿body {
 }
+
+button {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+#carousel {
+    margin: 0px auto;
+}
+
+#carouselList {
+    display: none;
+}

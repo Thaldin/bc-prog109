@@ -3,10 +3,22 @@
 <head>
     <meta charset="utf-8" />
     <title>Artifact 05</title>
-    <link href="css/artifact5.css" rel="stylesheet"/>
+    <link href="css/artifact5.css" rel="stylesheet" />
 </head>
 <body>
-    <button id="next">Next</button><button id="prev">Prev</button>
+    <div id="carousel" data-index="0">
+        <img id="img-container" src="" />
+        <div id="img-desc"></div>
+        <button id="prev">Prev</button><label for="auto">Auto-Cycle</label><input id="auto" type="checkbox" /><button id="next">Next</button>
+    </div>
+
+    <ul id="carouselList">
+        <li data-img="images/tonka.png">This is Tonka</li>
+        <li data-img="images/bear.png">This is Bear</li>
+        <li data-img="images/spaz.png">This is Spaz</li>
+        <li data-img="images/mitchell.png">This is Mitchell</li>
+        <li data-img="images/ed.png">This is me</li>
+    </ul>
     <script src="js/artifact5.js"></script>
 </body>
 </html>
