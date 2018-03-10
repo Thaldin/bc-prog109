@@ -11,9 +11,20 @@ button:hover {
 }
 
 #carousel {
-    margin: 0px auto;
+    width: 800px;
+    height:600px;
+    text-align: center;
+    margin: auto auto;
+}
+
+#carouselCycle {
+    text-align:center;
 }
 
 #carouselList {
     display: none;
+}
+
+#img-desc {
+    text-align: center;
 }
