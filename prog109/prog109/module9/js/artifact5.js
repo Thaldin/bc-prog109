@@ -49,6 +49,8 @@ function getCarouselEntry(index) {
     var imgSrc = carouselList.getElementsByTagName("li")[index].attributes["data-img"].value;
     var imgDesc = carouselList.getElementsByTagName("li")[index].innerHTML;
 
-    document.getElementById("img-container").setAttribute("src", imgSrc);
+    var imgContainer = document.getElementById("img-container");
+    imgContainer.setAttribute("src", imgSrc);
+    imgContainer.setAttribute("alt", imgDesc);
     document.getElementById("img-desc").innerHTML = imgDesc;
 }
