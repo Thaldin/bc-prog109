@@ -1,17 +1,44 @@
-﻿div.header {
-    float: left;
-    width: 31%;
-    color: rgb(0, 255, 0);
-    padding: 2px 5px;
-}
-
-div.course {
+﻿div.course {
     clear: both;
+    color: green;
 }
 
-div.course-info {
+div.course:hover {
+    color: rgb(0, 255, 0);
+}
+
+div.quarter, div.quarter-header {
+    width: 10%;
     margin: 0 auto;
     float: left;
-    width: 31%;
     padding: 5px 5px;
+}
+
+div.course-id, div.course-id-header {
+    width: 10%;
+    margin: 0 auto;
+    float: left;
+    padding: 5px 5px;
+}
+
+div.course-desc, div.course-desc-header {
+    width: 40%;
+    margin: 0 auto;
+    float: left;
+    padding: 5px 5px;
+}
+
+div.course-prof, div.course-prof-header {
+    width: 35%;
+    margin: 0 auto;
+    float: left;
+    padding: 5px 5px;
+}
+
+div.quarter, div.course-id, div.course-desc, div.course-prof {
+    color: inherit;
+}
+
+div.quarter-header, div.course-id-header, div.course-desc-header, div.course-prof-header {
+    color: rgb(0, 255, 0);
 }
