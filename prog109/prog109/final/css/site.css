@@ -65,6 +65,7 @@ section {
         color: rgb(0, 255, 0);
     }
 
+/* Image sizing templates */
 img.align-right {
     float: right;
     margin-left: 10px;
