@@ -38,6 +38,7 @@ a {
         color: rgb(0, 255, 0);
     }
 
+/* Old style monitor look */
 main {
     margin: auto auto;
     width: 960px;
@@ -62,10 +63,6 @@ section {
     section h4 {
         font-size: 100%;
         color: rgb(0, 255, 0);
-    }
-
-    section div {
-        font-size: 85%;
     }
 
 img.align-right {

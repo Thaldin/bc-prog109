@@ -23,22 +23,24 @@
         <section>
             <fieldset>
                 <legend>Contact Me</legend>
-                <form action="thank-you.html" method="get">
+                <form action="thank-you.html" method="get" onsubmit="return validateContact();">
                     <div>
-                        <label class="form">Name:</label><input id="name" type="text" />
+                        <label class="form">Name:</label><input id="contact-name" type="text" />
                     </div>
                     <div>
-                        <label class="form">Email:</label><input id="email" type="email" />
+                        <label class="form">Email:</label><input id="contact-email" type="email" />
                     </div>
                     <div>
-                        <label class="form">Message:</label><textarea id="message" rows="5"></textarea>
+                        <label class="form">Message:</label><textarea id="contact-msg" rows="5"></textarea>
                     </div>
                     <div class="submit">
                         <button id="submit">Contact Me</button>
                     </div>
                 </form>
             </fieldset>
+            <div id="contact-err"></div>
         </section>
     </main>
+    <script src="js/site.js"></script>
 </body>
 </html>
