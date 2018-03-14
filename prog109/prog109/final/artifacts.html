@@ -22,25 +22,29 @@
     <main>
         <section>
             <h4>Artifacts for PROG 109</h4>
-            <a href="../module1/artifact01.html" target="_blank">
+            <a id="carousel-link" href="../module1/artifact01.html" target="_blank">
                 <article class="artifacts">
                     <figure>
-                        <img src="images/resume.png" class="small" alt="resume" />
-                        <figcaption>Resume Artifact 01</figcaption>
+                        <img id="img-container" src="images/resume.png" class="medium" alt="resume" />
+                        <figcaption id="img-cap">Resume Artifact 01</figcaption>
                     </figure>
-                    <p>A html formatted resume, no css.</p>
+                    <p id="art-desc">A html formatted resume, no css.</p>
                 </article>
             </a>
-            <a href="../module3/artifact02.html" target="_blank">
-                <article class="artifacts">
-                    <figure>
-                        <img src="images/chessboard.png" class="small" alt="chessboard" />
-                        <figcaption>Chessboard Artifact 02</figcaption>
-                    </figure>
-                    <p>A chessboard using css and div tags alone. No tables allowed.</p>
-                </article>
-            </a>
+            <div id="carouselCycle">
+                <button id="prev">Prev</button><label for="auto">Auto-Cycle</label><input id="auto" type="checkbox" /><button id="next">Next</button>
+            </div>
         </section>
     </main>
+
+    <ul id="carouselList">
+        <li data-img="images/resume.png" data-link="../module1/artifact01.html" data-cap="Resume Artifact 01">A html formatted resume, no css.</li>
+        <li data-img="images/chessboard.png" data-link="../module3/artifact02.html" data-cap="Chessboard Artifact 02">A chessboard using css and div tags alone. No tables allowed.</li>
+        <li data-img="images/rhombus.png" data-link="../module6" data-cap="Rhombus Artifact 03">Creates a rhombus (diamond) using Javascript</li>
+        <li data-img="images/form.png" data-link="../module8/artifact4.html" data-cap="Javascript Form Validation Artifact 04">A javascript validation of a form, with different types of validation.</li>
+        <li data-img="images/carousel.png" data-link="../module9/artifact5.html" data-cap="Javascript Carousel Artifact 05">A rotating image carousel using Javascript with automatic feature.</li>
+    </ul>
+
+    <script src="js/artifacts.js"></script>
 </body>
 </html>
