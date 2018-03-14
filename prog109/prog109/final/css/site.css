@@ -65,6 +65,18 @@ section {
         color: rgb(0, 255, 0);
     }
 
+/* footer with buttons and time date stamp */
+footer {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+    footer > p {
+        margin-top: 0px;
+    }
+
+
 /* Image sizing templates */
 img.align-right {
     float: right;
